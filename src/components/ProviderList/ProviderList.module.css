@@ -1,0 +1,19 @@
+.providerCard {
+  cursor: pointer;
+  transition: all 0.2s ease;
+  height: 100%;
+}
+
+.providerCard:hover {
+  transform: translateY(-2px);
+}
+
+.providerIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.providerName {
+  color: #333;
+}

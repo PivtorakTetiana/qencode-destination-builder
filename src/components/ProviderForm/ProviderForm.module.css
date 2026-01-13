@@ -1,0 +1,45 @@
+.formContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+.formCard {
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 550px;
+}
+
+.providerSelect {
+  margin-bottom: 24px;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+  margin-top: 32px;
+}
+
+.formHeader {
+  margin-bottom: 32px;
+}
+
+/* Mobile responsive styles - matches MUI sm breakpoint (600px) */
+@media (max-width: 600px) {
+  .formContainer {
+    padding: 16px;
+  }
+
+  .formCard {
+    padding: 16px;
+  }
+
+  .buttonGroup {
+    flex-direction: column-reverse;
+  }
+
+  .buttonGroup button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,62 @@
+/* Basis Grotesque Pro Font - Add your font files to /public/fonts/ */
+/* Uncomment and adjust paths when you add the actual font files */
+/*
+@font-face {
+  font-family: 'Basis Grotesque Pro';
+  src: url('/fonts/basis-grotesque-pro/BasisGrotesquePro-Regular.woff2') format('woff2'),
+       url('/fonts/basis-grotesque-pro/BasisGrotesquePro-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Basis Grotesque Pro';
+  src: url('/fonts/basis-grotesque-pro/BasisGrotesquePro-Medium.woff2') format('woff2'),
+       url('/fonts/basis-grotesque-pro/BasisGrotesquePro-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Basis Grotesque Pro';
+  src: url('/fonts/basis-grotesque-pro/BasisGrotesquePro-Bold.woff2') format('woff2'),
+       url('/fonts/basis-grotesque-pro/BasisGrotesquePro-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Basis Grotesque Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+  color: #060E1E;
+}
+
+/* Ensure all text elements use Basis Grotesque Pro */
+body * {
+  font-family: 'Basis Grotesque Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  min-height: 100vh;
+  background-color: #ffffff;
+}

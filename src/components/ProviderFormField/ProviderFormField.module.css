@@ -1,0 +1,13 @@
+.fieldWrapper {
+  width: 100%;
+}
+
+.textField {
+  width: 100%;
+}
+
+.helperText {
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 4px;
+}
