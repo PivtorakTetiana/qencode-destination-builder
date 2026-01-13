@@ -8,7 +8,7 @@ A React + TypeScript + Vite application for configuring cloud storage destinatio
 - 📝 Dynamic form generation based on provider configuration
 - ✅ Frontend and backend validation (mocked)
 - 🔄 Wizard-style flow for better UX
-- 📱 Fully responsive design (adapts to container width)
+- 📱 Fully responsive design
 - 🏗️ Scalable architecture - easily add new providers
 - 🎯 Type-safe with TypeScript
 - 🎨 Modular CSS with proper component organization
@@ -112,7 +112,6 @@ npm run preview
 2. **Configure**: Fill in the required fields
    - Bucket Name
    - Region (AWS only)
-   - Path (optional)
    - Access Key ID
    - Secret Access Key
 3. **Submit**: Click "Save" to validate and generate the destination configuration
@@ -176,9 +175,9 @@ export const providers: Record<string, ProviderConfig> = {
 
 ## Responsive Design
 
-- **Desktop** (> 600px): Fields are displayed in 2 columns (configurable per field)
-- **Mobile** (≤ 600px): All fields are displayed in 1 column
-- Responsive breakpoint at 600px (MUI's `sm` breakpoint)
+The application is fully responsive and adapts to different screen sizes:
+- **Desktop**: Fields are displayed in multiple columns based on configuration
+- **Mobile**: All fields are displayed in a single column for better usability
 
 ## Key Features
 
@@ -196,22 +195,12 @@ Full TypeScript support with proper types for all components, hooks, and configu
 ### Modern UI
 - Material-UI components for consistent design
 - Smooth transitions and hover effects
-- Copy-to-clipboard functionality for JSON output
 - Password visibility toggle
+- Clean JSON output display
 
-### Comprehensive Testing
-- 71 unit tests covering all components, hooks, and utilities
-- Vitest + React Testing Library
-- 100% test coverage for critical paths
-- Automated testing in CI/CD pipelines
-
-## License
-
-MIT
-
-## Author
-
-Qencode Destination Builder
+### Testing
+- Comprehensive unit tests using Vitest and React Testing Library
+- Tests for components, hooks, and utilities
 
 ---
 
